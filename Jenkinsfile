@@ -12,7 +12,7 @@ pipeline {
         RELEASE_REPO = 'project-release'
         CENTRAL_REPO = 'project-maven-central'
         NEXUSIP = '172.31.44.234'
-        NEXUSPORT '8081'
+        NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'project-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
 
