@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  vprodb:
+    build:
+      context: ./Docker-files/db
+    image: real1podman/vprofiledb
+    container_name: vprodb
+    
